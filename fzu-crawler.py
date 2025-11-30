@@ -146,7 +146,7 @@ with ThreadPoolExecutor(max_workers=30) as executor:
 
 df=pd.DataFrame(datas)
 print(df)
-# df.to_csv("data.csv")
+df.to_csv("data.csv")
 
     
         
